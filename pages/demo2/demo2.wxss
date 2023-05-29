@@ -1,0 +1,159 @@
+/* pages/demo2/demo2.wxss */
+
+text{
+  width:300rpx;
+}
+text#n3,#n2{
+  left: 27.1rpx;
+}
+text#n1{
+  color:rgba(149,149,255,1);
+}
+text#n2{
+  color:rgba(252,161,71,1);
+}
+text#n3{
+  color: rgba(66,193,110,1);
+}
+text#n4{
+  color:rgba(220,91,183,1);
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+ 
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 35rpx;
+  border-radius: 50%;
+}
+page{
+  background-image: -moz-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+}
+
+.tx{
+  position: absolute;
+  left:50rpx;
+  top:170rpx;
+  width:200rpx;
+  height:200rpx;
+}
+.name{
+  position: absolute;
+  left:290rpx;
+  top:195rpx;
+  font-size: 50rpx;
+  color: #000000;
+  /* font-family:serif; */
+  font-family: 'myFont';
+}
+
+
+.cg{
+  position: absolute;
+  left:300rpx;
+  top:255rpx;
+  width:400rpx;
+  font-size: 30rpx;
+  color:#646464;
+}
+
+.con1{
+  width:690rpx;
+  left:28rpx;
+  height:260rpx;
+  border-radius: 15rpx;
+  position: relative;
+  top:400rpx;
+  background: white;
+  box-shadow: 0px 2px 5px 0.5px rgba(0, 0, 0, 0.35);
+}
+.li{
+  position: absolute;
+  width:230rpx;
+  height:260rpx;
+ 
+}
+.i2{
+  left:230rpx;
+}
+.i3{
+  left:460rpx;
+}
+
+.icon{
+  width:50rpx;
+  height:50rpx;
+  position: absolute;
+}
+.icon1{
+  left:100rpx;
+  top:30rpx;
+
+}
+.t1{
+  position: absolute;
+  left:60px;
+  top:100rpx;
+  font-size: 50rpx;
+
+}
+.t2{
+  position: absolute;
+  left:35px;
+  top:165rpx;
+  font-size: 30rpx;
+  color:#646464;
+}
+
+.con2{
+  width:690rpx;
+  left:28rpx;
+  height:330rpx;
+  border-radius: 15rpx;
+  position: relative;
+  top:420rpx;
+  background: white;
+  position: relative;
+  box-shadow: 0px 2px 5px 0.5px rgba(0, 0, 0, 0.35);
+}
+.list{
+  width:690rpx;
+  height:110rpx;
+  position: relative;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+
+.on1{
+  position: absolute;
+  left:30rpx;
+  top:30rpx;
+  width:40rpx;
+  height:40rpx;
+}
+.txt{
+  position: absolute;
+  left:90rpx;
+  top:30rpx;
+  font-size: 30rpx;
+  color:#646464;
+}
+.on2{
+  position: absolute;
+  right:30rpx;
+  top:35rpx;
+  width:30rpx;
+  height:30rpx;
+}
+.last{
+  border-bottom:none;
+}

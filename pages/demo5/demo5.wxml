@@ -1,0 +1,51 @@
+<view style="position: relative; left:40rpx; top:90rpx;">
+  关于我们
+</view>
+<view class="con1">
+<!-- 头部 -->
+  <!-- <view class="head">
+    <image src="../../img/tx.png" mode="" class="imgT" class="logo"/>
+  </view> -->
+  <!-- 人员列表 -->
+  <view class="body">
+    <text id='h2'>开发人员列表</text>
+    <text id="add">(点击扫码加好友)</text>
+    
+
+      <view class="user u1" bindtap="navTo" data-index="p0">
+        <image src="../../img/1.jpg" mode="" class="imgU"/>
+       <text class="na">晏波</text>
+      </view>
+
+      <view class="user u2" bindtap="navTo" data-index="p1">
+        <image src="../../img/2.jpg" mode="" class="imgU"/>
+       <text class="na">沈冬妍</text>
+      </view>
+
+      <view class="user u3" bindtap="navTo" data-index="p2">
+        <image src="../../img/3.jpg" mode="" class="imgU"/>
+       <text class="na">白值毅</text>
+      </view>
+
+      <view class="user u4" bindtap="navTo" data-index="p3">
+        <image src="../../img/4.jpg" mode="" class="imgU"/>
+       <text class="na">姚健威</text>
+      </view>
+
+      <view class="user u5" bindtap="navTo" data-index="p4">
+        <image src="../../img/ljx.png" mode="" class="ljx"/>
+        <image src="../../img/5.jpg" mode="" class="imgU"/>
+       <text class="na">林嘉雄</text>
+      </view>
+
+      <view class="user u6" bindtap="navTo" data-index="p5">
+        <image src="../../img/6.jpg" mode="" class="imgU"/>
+       <text class="na">翟梦婷</text>
+      </view>
+      <!-- 开发事件 -->
+     
+
+    
+  </view>
+ <text id='time'>开发时间：2023.3-2023.6</text>
+</view>

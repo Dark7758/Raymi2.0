@@ -1,0 +1,42 @@
+<!--pages/demo1/demo1.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="../../img/bg.png"></image>
+</view>
+<view class="all">
+  
+
+<view class="con">
+  <view class="box">
+   <view class="box1">
+      <view class="box1_1">
+          <!-- <view class="icon-books"></view> -->
+          <image src="../../img/book.png" mode="" style="height:120rpx;width:110rpx;position: absolute; left:60rpx; top:50rpx;"/>
+          <text class='en'>{{bookName}}</text>
+          <view class="icon-turn">
+          </view>
+       </view>
+    </view>
+  <view class="box2">
+      <h2></h2>
+      <ul>
+        <li>今日计划</li>
+        <li>需新学:</li>
+        <li>需复习:</li>
+        <li>{{newWords}}</li>
+        <li>{{oldWords}}</li>
+        <li>词</li>
+        <li>词</li>
+      </ul>
+    </view>
+  </view>
+
+  <view class='learn'>
+    <navigator url="/pages/demo3/demo3"><text>继续学习</text></navigator>
+  </view>
+</view>
+
+<view >
+  
+</view>
+
+</view>

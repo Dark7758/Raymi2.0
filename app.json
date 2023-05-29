@@ -1,0 +1,55 @@
+{
+"pages": [
+  "pages/index/index",
+   "pages/demo1/demo1",
+  "pages/demo7/demo7",
+  "pages/demo6/demo6",
+  "pages/demo3/demo3",
+  "pages/demo2/demo2",
+ "pages/demo5/demo5",
+     "pages/demo4/demo4",
+     "pages/demo8/demo8",
+     "pages/demo9/demo9"
+
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "black",
+    "selectedColor": "#c7c7ff",
+    "list":[
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "主页",
+        "iconPath": "icon/主页.png",
+        "selectedIconPath": "icon/主页1.png"
+      },
+      {
+        "pagePath": "pages/demo8/demo8",
+        "text": "搜索",
+        "iconPath": "icon/search.png",
+        "selectedIconPath": "icon/search_1.png"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "我的",
+        "iconPath": "icon/个人中心.png",
+        "selectedIconPath": "icon/个人中心1.png"
+      }
+    ]
+  },
+  "shareAppMessage": {
+
+    "title": "Raymi记单词",
+    
+    "path": "/pages/index/index",
+    
+    "imageUrl": "img/logo.png"
+    
+    },
+  "style": "v2"
+}

@@ -1,0 +1,77 @@
+.box1 {
+  border-radius: 18.1rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 8px  #e74b3a;
+  position: absolute;
+  left: 101.3rpx;
+  bottom:200rpx;
+  width: 222.6rpx;
+  height: 222.6rpx;
+  z-index: 4;
+}
+
+
+.box2 {
+  border-radius: 18.1rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 8px #5cb560;
+  position: absolute;
+  right: 101.3rpx;
+  bottom:200rpx;
+  width: 222.6rpx;
+  height: 222.6rpx;
+  z-index: 5;
+}
+
+.con text#n1{
+  font-size: 36.2rpx;
+  font-weight: bold;
+  font-family: "YouYuan";
+  position: absolute;
+  left:54.3rpx;
+  top:86.8rpx;
+  color:#e74b3a;
+}
+.con text#n2{
+  font-size: 36.2rpx;
+  font-weight: bold;
+  font-family: "YouYuan";
+  position: absolute;
+  left:72.4rpx;
+  top:86.8rpx;
+  color:#5cb560;
+}
+.word{
+  height:180rpx;
+  width:100%;
+  position: relative;
+  top:352.9rpx;
+  text-align: center;
+}
+
+.pro{
+  top:252rpx;
+}
+.con .word text{
+  font-size: 68.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  width:100%;
+}
+.con .pro text{
+  font-size: 28.9rpx;
+  font-family: "Cambria";
+  color: rgb(137, 140, 141);
+  line-height: 1.2;
+}
+.con text#top {
+  font-size: 27.1rpx;
+  font-family: "YouYuan";
+  color: rgb(8, 13, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 45.425rpx;
+  top: 59.865rpx;
+  z-index: 8;
+}

@@ -1,0 +1,18 @@
+<!--pages/demo3/demo3.wxml-->
+<view class="con">
+
+      <progress percent="{{progress}}" stroke-width="4" color="#5cb560" border-radius="10px"/>
+      <text id='top'>{{learnStatus1}}{{num}}{{learnStatus2}}</text>
+    
+    <view class="word">
+        <text>{{datas[i].word}}</text>
+        
+    </view>
+    <view class="word pro">
+      <text>{{datas[i].pronunciation}}</text>
+    </view>
+    <view class="box1" bindtap="message">
+      <text id='n1'>我不会</text></view>
+      <view class="box2" bindtap="countUp">
+      <text id='n2'>我会</text></view>
+</view>

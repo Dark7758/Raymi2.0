@@ -1,0 +1,18 @@
+<!--pages/demo6/demo6.wxml-->
+<view>
+    <view class="word">
+      <text>{{msgObj.word}}</text>
+      <text>{{msgObj.pronunciation}}</text>
+      <text>{{msgObj.translation}}</text>
+      <image src="{{heartUrl}}" alt="" class="heart" bindtap="heart"/>
+    </view>
+    <!-- <view class="word-deformation">
+      <text>单词变形</text>
+      <text>{{wordDeformation}}</text>
+    </view> -->
+    <view class="example-sentence">
+      <text>例句</text>
+      <text>{{msgObj.sentence}}</text>
+      <text>{{msgObj.sentenceTranslation}}</text>
+    </view>
+</view>

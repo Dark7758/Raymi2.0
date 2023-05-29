@@ -1,0 +1,205 @@
+/* pages/demo1/demo1.wxss */
+.box {
+  border-width: 1.81rpx;
+  /* border-color: rgb(0, 0, 0); */
+  /* border-style: solid; */
+  border-radius: 20rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1.268px 2.719px 4.25px 0.75px rgba(51, 51, 51, 0.47),-1.433px -3.734px 4.45px 0.55px rgba(204, 204, 204, 0.47);
+  position: absolute;
+  left: 48rpx;
+  top:291rpx;
+  width: 653rpx;
+  height: 520rpx;
+  z-index: 7;
+  opacity: 0.749;
+}
+
+
+.learn {
+  border-width: 1px;
+  /* border-color: rgb(0, 0, 0); */
+  /* border-style: solid; */
+  border-radius: 18rpx;
+  position: absolute;
+  left: 48rpx;
+  top: 843rpx;
+  width: 650rpx;
+  height: 108rpx;
+  z-index: 23;
+  text-align: center;
+  line-height: 108rpx;
+  background-image: -moz-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  opacity: 0.871;
+  box-shadow: 0.242px 0.97px 4.95px 0.05px rgba(204, 204, 204, 0.47),0px 6px 4.75px 0.25px rgba(245, 191, 188, 0.35);
+}
+.learn text {
+  font-size: 43rpx;
+  font-family: "YouYuan";
+  color: rgb(0, 0, 0);
+  z-index: 24;
+}
+.footer {
+  box-shadow: -0.105px -2.998px 9.5px 0.5px rgba(213, 192, 220, 0.35);
+  position: fixed;
+  left: -65rpx;
+  bottom: 0;
+  width: 816rpx;
+  height: 116rpx;
+}
+.box1{
+  left:33rpx;
+  position: absolute;
+  height:199rpx;
+  width:580rpx;
+  border-bottom: 1px solid #999999;
+}
+
+.box .box1_1 .en {
+  font-size: 43rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  z-index: 19;
+  position: absolute;
+  left:199rpx;
+  top:83rpx;
+}
+
+.box2 ul li:nth-child(1) {
+  font-size: 43rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 36rpx;
+  top: 217rpx;
+  z-index: 8;
+}
+.box2 ul li:nth-child(2) {
+  font-size: 32rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 81rpx;
+  top: 307rpx;
+  z-index: 12;
+}
+.box2 ul li:nth-child(3) {
+  font-size: 32rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 362rpx;
+  top: 307rpx;
+  z-index: 11;
+}
+
+.box2 ul li:nth-child(4) {
+  font-size: 108rpx;
+  font-family: "STXinwei";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 80rpx;
+  top: 362rpx;
+  z-index: 13;
+}
+.box2 ul li:nth-child(5) {
+  font-size: 108rpx;
+  font-family: "STXinwei";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 365rpx;
+  top: 362rpx;
+  z-index: 13;
+}
+.box2 ul li:nth-child(6) {
+  font-size: 32.5rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left:500rpx;
+  top: 443rpx;
+  z-index: 10;
+}
+.box2 ul li:nth-child(7) {
+  font-size: 32.5rpx;
+  font-family: "YouYuan";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 225rpx;
+  top: 443rpx;
+  z-index: 10;
+}
+
+.icon-home3 {
+  font-size: 54.3rpx;
+  color:#c7c7ff;
+  position: absolute;
+  left: 163rpx;
+  top: 36rpx;
+  z-index: 4;
+}
+.icon-home3:hover{
+  color: #c7c7ff;
+}
+.icon-book_3 {
+  font-size: 45rpx;
+  color:#000000;
+  position: absolute;
+  left: 398rpx;
+  top: 39.8rpx;
+  z-index: 4;
+}
+.icon-book_3:hover{
+  color: #c7c7ff;
+}
+.icon--e_3 {
+  font-size: 54.3rpx;
+  color:#000000;
+  position: absolute;
+  right: 126.7rpx;
+  top: 36rpx;
+  z-index: 4;
+}
+.icon--e_3:hover{
+  color: #c7c7ff;
+}
+.icon-books{
+  font-size: 72.4rpx;
+  color:#000000;
+  position: absolute;
+  left:99.55rpx;
+  top:72.4rpx;
+}
+.icon-turn{
+  font-size: 41.6rpx;
+  color:#999999;
+  position: absolute;
+  left:470rpx;
+  top:90.5rpx;
+}
+.bacg{
+  width:750rpx;
+  height:1250rpx;
+}
+
+
+
+
+.bg-image
+{ width : 100%;height : 100%;  position: fixed;  z-index: -1;  
+}
+
+.all{
+  position: relative;
+  top:40rpx;
+}

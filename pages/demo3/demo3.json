@@ -1,0 +1,9 @@
+{
+  "usingComponents": {} ,
+  "navigationBarBackgroundColor": "#c7c7ff",
+  "navigationBarTitleText": "继续学习",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#e9e9e9",
+  "backgroundTextStyle": "dark"
+}

@@ -1,0 +1,58 @@
+<!--pages/demo2/demo2.wxml-->
+<view style="position: relative; left:40rpx; top:90rpx;">
+  个人中心
+</view>
+<view class="con">
+  <image src="{{txUrl}}" mode="" class="tx"/>
+  <text class="name">ID:45683886</text>
+  <text class="cg">已超过90%的用户</text>
+
+  <view class="con1">
+      <list-view>
+            <view class="i1 li">
+                    <image src="../../icon/day.png" class="icon icon1"mode=""/>
+
+                     <text class="t1">0</text>
+                      <text class="t2">学习天数</text>
+            </view>
+            <view class="i2 li">
+                    <image src="../../icon/time.png" class="icon icon1"mode=""/>
+
+                     <text class="t1">0</text>
+                      <text class="t2">学习时长/min</text>
+            </view>
+            <view class="i3 li">
+                    <image src="../../icon/find.png" class="icon icon1"mode=""/>
+
+                     <text class="t1">0</text>
+                      <text class="t2">学习数量</text>
+            </view>
+      </list-view>
+
+      
+  </view>
+  <view class="con2">
+      <navigator url="../demo7/demo7" class="list">
+              <image src="../../icon/sbook.png" class="icon  on1" mode=""/>
+              <text class="txt">生单词本</text>
+              <image src="../../icon/right.png" class="icon on2" mode=""/>
+          </navigator>
+
+          <navigator url="../demo4/demo4" class="list list2">
+              <image src="../../icon/us1.png" class="icon  on1" mode=""/>
+              <text class="txt">意见与反馈</text>
+              <image src="../../icon/right.png" class="icon on2" mode=""/>
+  
+          </navigator>
+
+          <navigator url="../demo5/demo5" class="list list3 last">
+              <image src="../../icon/chat.png" class="icon  on1" mode=""/>
+              <text class="txt">关于我们</text>
+              <image src="../../icon/right.png" class="icon on2" mode=""/>
+          </navigator>
+
+      </view>
+</view>
+
+
+

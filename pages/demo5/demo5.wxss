@@ -1,0 +1,128 @@
+/* pages/demo5/demo5.wxss */
+/* //人员矩形圆框 */
+.user {
+height:126.7rpx;
+width:307.7rpx;
+/* border:1.81rpx solid #000000; */
+border-radius: 18.1rpx;
+position: absolute;
+background-color: white;
+box-shadow: 0px 2px 5px 0.5px rgba(0, 0, 0, 0.35);
+}
+.con1{
+  position: relative;
+}
+/* 定位1 */
+.u1{ 
+  left:50rpx;
+  top:371rpx;
+}
+/* 定位2 */
+.u2{
+  right:50rpx;
+  top:371rpx;
+}
+/* 定位3 */
+.u3{
+  left:50rpx;
+  top:543rpx;
+}
+/* 定位4 */
+.u4{
+  right:50rpx;
+  top:543rpx;
+}
+/* 定位5 */
+.u5{
+  left:50rpx;
+  top:714.9rpx;
+}
+/* 定位6 */
+.u6{
+  right:50rpx;
+  top:714.9rpx;
+}
+/* //开发人员列表 */
+#h2 {
+  font-size: 36.2rpx;
+  font-family: "Adobe Heiti Std";
+  color: rgb(75, 75, 79);
+  line-height: 1.2;
+  position: absolute;
+  left: 65.1rpx;
+  top: 298.6rpx;
+  z-index: 5;
+}
+/* 头像 */
+.imgU{
+  width:90.5rpx;
+  height:90.5rpx;
+  border-radius: 18.1rpx;
+  position: absolute;
+  left:18.1rpx;
+  top:18.1rpx;
+}
+/* 姓名 */
+.na{
+  position: absolute;
+  width:181px;
+  left:144.8rpx;
+  top:36.2rpx;
+  font-size: 32.5rpx;
+  font-family: "Adobe Heiti Std";
+}
+/* logo */
+.imgT{
+  width:144.8rpx;
+  height:144.8rpx;
+  position: absolute;
+  left:325.8rpx;
+  top:54.3rpx;
+  border-radius: 18.1rpx;
+}
+/* 小程序id */
+#name{
+  font-size: 39.8rpx;
+  font-family: "Adobe Heiti Std";
+  color:#898c8d;
+  position: absolute;
+  left:311.3rpx;
+  top:224.44rpx;
+}
+#time{
+  position: absolute;
+  top:1086rpx;
+  left:217.2rpx;
+  font-size: 27.1rpx;
+  color:rgb(75, 75, 79);
+}
+
+
+.ljx{
+  width:70rpx;
+  height:50rpx;
+  position: absolute;
+  z-index: 8;
+  left:-5px;
+}
+.logo{
+  width:300rpx;
+  height:275rpx;
+}
+
+.head{
+  text-align: center;
+  
+}
+
+page{
+  background-image: -moz-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(249,247,223,0.99608) 0%, rgb(235,227,245) 100%);
+}
+#add{
+  position: absolute;
+  top:870rpx;
+  left:60rpx;
+  color: rgb(100, 100, 98);
+}

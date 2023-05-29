@@ -1,0 +1,5 @@
+<!--pages/demo9/demo9.wxml-->
+<view style="text-align: center;">
+  <image src="{{imgUrl}}" mode="" style="height:940rpx;width:700rpx; margin-top:240rpx;"/>
+</view>
+

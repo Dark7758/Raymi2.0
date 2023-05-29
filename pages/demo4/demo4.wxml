@@ -1,0 +1,23 @@
+<!--pages/demo4/demo4.wxml-->
+<list-view>
+  <view>
+      <text>常见问题</text>
+   </view>
+   <view class="iBox">
+      <text class="li">个人账号问题</text>
+      <text class="liChild po">账号绑定、密码、个人信息等</text>
+   
+    </view>
+    <view class="iBox">
+       <text class="li">功能相关问题</text>  
+       <text class="liChild po">相关问题</text>
+    </view>
+    <view class="iBox">
+       <text class="li">学习相关问题</text>  
+       <text class="liChild po">学习记录</text>
+    </view>
+   <view class="iBox">
+      <text class="li">联系客服</text>
+      <text class="liChild bo">|每天 9：00-24：00</text>
+  </view>
+</list-view>

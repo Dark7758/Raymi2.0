@@ -1,0 +1,16 @@
+<!--pages/demo7/demo7.wxml-->
+
+<view class="list" >
+<block wx:for="{{heartWords}}" wx:for-item="item" wx:key="index">
+    <view class="line" catchtap="moreMsg"  data-index="{{item.index}}">
+          <text>{{item.word}}</text>
+          <button class="heart" catchtap="chancel" data-index="{{item.index}}" size="mini">已会</button>
+    </view>
+</block>
+<view class="null" wx:if="{{nullMsg}}">
+<image src="../../icon/null.png" mode=""/>
+<text>暂无收藏</text>
+</view>
+</view>
+
+

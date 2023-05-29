@@ -1,0 +1,52 @@
+/* pages/demo4/demo4.wxss */
+list-view view:nth-child(1) text{
+  font-size: 36.2rpx;
+  margin-left: 36.2rpx;
+
+}
+list-view view:nth-child(1){
+  width:100%;
+  height:99.55rpx;
+  line-height: 99.55rpx;
+ background-color: #e9e9e9;
+}
+/*列表主文字样式*/
+list-view .li{
+  font-size: 36.2rpx;
+  position: absolute;
+  left:36.2rpx;
+  top:27.1rpx;
+}
+/*列表副文字样式*/
+list-view .liChild{
+  font-size: 27.1rpx;
+  color:#73797f;
+
+}
+/*副文字定位1*/
+list-view .po{
+  position: absolute;
+  top:79.6rpx;
+  left:36.2rpx;
+}
+/*副文字定位2*/
+list-view .bo{
+  position: absolute;
+  top:36.2rpx;
+  left:181rpx;
+}
+/*列表主盒子样式*/
+list-view .iBox{
+width:100%;
+height:135.7rpx;
+border-bottom: 1.81rpx solid #e9e9e9;
+position: relative;
+}
+/*图标样式及定位*/
+.ic{
+  font-size: 36.2rpx;
+  color:#73797f;
+  position: absolute;
+  top:27.1rpx;
+  right:54.3rpx;
+}

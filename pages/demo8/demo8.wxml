@@ -1,0 +1,84 @@
+<!--pages/demo8/demo8.wxml-->
+<view style="position: relative; left:40rpx; top:90rpx;">
+  搜索与翻译
+</view>
+<view class="cont">
+  
+
+<view class="search">
+  <picker value="{{index}}" range="{{toLanguageArray}}" bindchange="bindPickerChange" class="my_picker">
+<view class="toLanguageView">
+ <text> 自动检测  </text>
+ <image src="../../icon/turn.png" mode="" style="width:30rpx;height:30rpx; "/>
+  <text> {{toLanguageArray[index]}}</text>
+</view>
+</picker>
+<form bindsubmit="submit">
+    <textarea type="text" name="search" id="search" data-name="inputText" auto-focus placeholder="请输入要翻译的文本" bindinput="translateInputAction"></textarea>
+    <button size="mini" id="btn" form-type="submit">翻译</button>
+</form>
+</view>
+
+<view class="msg" wx:if="{{msg}}">
+<view class="con">
+  <text class="tex" >翻译结果</text>
+  <view class="word">
+    {{inputText}}
+    <!-- public -->
+    </view>
+  <view class="type">
+     <block wx:for="{{msgObj.exam_type}}" wx:for-item="item" wx:key="index" >
+    <text>{{item}}/</text>
+  </block>
+  </view>
+ <view class="pho p1">
+   <text>英[{{msgObj['uk-phonetic']}}]</text>
+ </view>
+ <view class="pho p2">
+   <text>美[{{msgObj['us-phonetic']}}]</text>
+ </view>
+</view>
+
+<view class="body">
+    <text class="tex">单词释义</text>
+    <view class="exp">
+      <block wx:for="{{msgObj.explains}}" wx:for-item="item" wx:key="index">
+      <view style="margin-top: 5rpx;">{{item}}</view>
+  </block> 
+    </view>
+      
+</view>
+
+
+
+<view class="footer">
+    <text class="tex">单词变形</text>
+    <view class="wfs">
+      <block wx:for="{{msgObj.wfs}}"  wx:for-item="item" wx:key="index">
+  <view>
+    <text>{{item.wf.name}}:      </text>
+      <text>{{item.wf.value}}</text>
+  </view>
+  </block> 
+    </view>
+      
+</view>
+</view>
+
+<view class="ch" wx:if="{{chs}}">
+  <text class="tex">语句翻译</text>
+    <view class="exp">
+      <block wx:for="{{msgObj.explains}}" wx:for-item="item" wx:key="index">
+      <view style="margin-top: 5rpx;">{{item}}</view>
+  </block> 
+    </view>
+</view>
+
+<view class="ch" wx:if="{{undefind}}">
+  <text class="tex">语句翻译</text>
+    <view class="exp" wx:if="undefound">
+        抱歉，无法翻译该语句
+    </view>
+</view>
+
+</view>

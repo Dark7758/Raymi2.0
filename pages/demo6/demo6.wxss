@@ -1,0 +1,108 @@
+/* pages/demo6/demo6.wxss */
+.word text:nth-child(1) {
+  font-size: 68.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  left: 34.1rpx;
+  top: 52.9rpx;
+  z-index: 2;
+}
+.word text:nth-child(2) {
+  font-size: 28.9rpx;
+  font-family: "Cambria";
+  color: rgb(137, 140, 141);
+  line-height: 1.2;
+  position: absolute;
+  left: 55.8rpx;
+  top: 150.2rpx;
+  z-index: 3;
+}
+.word text:nth-child(3) {
+  font-size: 38.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 300rpx;
+  left: 35rpx;
+}
+.word text:nth-child(4) {
+  font-size: 38.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 250rpx;
+  left: 35rpx;
+}
+.word-deformation text:nth-child(1) {
+  font-size: 38.7rpx;
+  font-weight: bold;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 55rpx;
+  left: 35rpx;
+}
+.word-deformation text:nth-child(2) {
+  font-size: 35.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 130rpx;
+  left: 35rpx;
+}
+.example-sentence text:nth-child(1) {
+  font-size: 38.7rpx;
+  font-weight: bold;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 55rpx;
+  left: 35rpx;
+}
+.example-sentence text:nth-child(2) {
+  font-size: 38.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 150rpx;
+  left: 35rpx;
+}
+.example-sentence text:nth-child(3) {
+  font-size: 38.7rpx;
+  font-family: "Cambria";
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  position: absolute;
+  top: 300rpx;
+  left: 35rpx;
+}
+.word{
+  position: relative;
+  height: 400rpx;
+  border-bottom: 1px solid #c9c9c9 ;
+}
+.word-deformation{
+  position: relative;
+  height: 350rpx;
+  border-bottom: 1px solid #c9c9c9 ;
+}
+.example-sentence{
+  position: relative;
+}
+
+
+.heart{
+  width:48rpx;
+  height:48rpx;
+  position: absolute;
+  right:50rpx;
+  top:60rpx;
+}
